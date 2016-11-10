@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542E54AE1DD4121700B63E3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E54AD1DD4121700B63E3A /* main.m */; };
+		542E54B11DD4121700B63E3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E54B01DD4121700B63E3A /* AppDelegate.m */; };
+		542E54B41DD4121700B63E3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E54B31DD4121700B63E3A /* ViewController.m */; };
+		542E54B71DD4121700B63E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E54B51DD4121700B63E3A /* Main.storyboard */; };
+		542E54B91DD4121700B63E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542E54B81DD4121700B63E3A /* Assets.xcassets */; };
+		542E54BC1DD4121800B63E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E54BA1DD4121800B63E3A /* LaunchScreen.storyboard */; };
+		542E54C71DD4121800B63E3A /* flexiumwarrantyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E54C61DD4121800B63E3A /* flexiumwarrantyTests.m */; };
+		542E54D21DD4121800B63E3A /* flexiumwarrantyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E54D11DD4121800B63E3A /* flexiumwarrantyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542E54C31DD4121800B63E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542E54A11DD4121700B63E3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542E54A81DD4121700B63E3A;
+			remoteInfo = flexiumwarranty;
+		};
+		542E54CE1DD4121800B63E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542E54A11DD4121700B63E3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542E54A81DD4121700B63E3A;
+			remoteInfo = flexiumwarranty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542E54A91DD4121700B63E3A /* flexiumwarranty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexiumwarranty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542E54AD1DD4121700B63E3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		542E54AF1DD4121700B63E3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		542E54B01DD4121700B63E3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		542E54B21DD4121700B63E3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		542E54B31DD4121700B63E3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		542E54B61DD4121700B63E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542E54B81DD4121700B63E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542E54BB1DD4121800B63E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542E54BD1DD4121800B63E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542E54C21DD4121800B63E3A /* flexiumwarrantyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexiumwarrantyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		542E54C61DD4121800B63E3A /* flexiumwarrantyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexiumwarrantyTests.m; sourceTree = "<group>"; };
+		542E54C81DD4121800B63E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542E54CD1DD4121800B63E3A /* flexiumwarrantyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexiumwarrantyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		542E54D11DD4121800B63E3A /* flexiumwarrantyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexiumwarrantyUITests.m; sourceTree = "<group>"; };
+		542E54D31DD4121800B63E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542E54A61DD4121700B63E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E54BF1DD4121800B63E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E54CA1DD4121800B63E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542E54A01DD4121700B63E3A = {
+			isa = PBXGroup;
+			children = (
+				542E54AB1DD4121700B63E3A /* flexiumwarranty */,
+				542E54C51DD4121800B63E3A /* flexiumwarrantyTests */,
+				542E54D01DD4121800B63E3A /* flexiumwarrantyUITests */,
+				542E54AA1DD4121700B63E3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542E54AA1DD4121700B63E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542E54A91DD4121700B63E3A /* flexiumwarranty.app */,
+				542E54C21DD4121800B63E3A /* flexiumwarrantyTests.xctest */,
+				542E54CD1DD4121800B63E3A /* flexiumwarrantyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542E54AB1DD4121700B63E3A /* flexiumwarranty */ = {
+			isa = PBXGroup;
+			children = (
+				542E54AF1DD4121700B63E3A /* AppDelegate.h */,
+				542E54B01DD4121700B63E3A /* AppDelegate.m */,
+				542E54B21DD4121700B63E3A /* ViewController.h */,
+				542E54B31DD4121700B63E3A /* ViewController.m */,
+				542E54B51DD4121700B63E3A /* Main.storyboard */,
+				542E54B81DD4121700B63E3A /* Assets.xcassets */,
+				542E54BA1DD4121800B63E3A /* LaunchScreen.storyboard */,
+				542E54BD1DD4121800B63E3A /* Info.plist */,
+				542E54AC1DD4121700B63E3A /* Supporting Files */,
+			);
+			path = flexiumwarranty;
+			sourceTree = "<group>";
+		};
+		542E54AC1DD4121700B63E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				542E54AD1DD4121700B63E3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		542E54C51DD4121800B63E3A /* flexiumwarrantyTests */ = {
+			isa = PBXGroup;
+			children = (
+				542E54C61DD4121800B63E3A /* flexiumwarrantyTests.m */,
+				542E54C81DD4121800B63E3A /* Info.plist */,
+			);
+			path = flexiumwarrantyTests;
+			sourceTree = "<group>";
+		};
+		542E54D01DD4121800B63E3A /* flexiumwarrantyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				542E54D11DD4121800B63E3A /* flexiumwarrantyUITests.m */,
+				542E54D31DD4121800B63E3A /* Info.plist */,
+			);
+			path = flexiumwarrantyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542E54A81DD4121700B63E3A /* flexiumwarranty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542E54D61DD4121800B63E3A /* Build configuration list for PBXNativeTarget "flexiumwarranty" */;
+			buildPhases = (
+				542E54A51DD4121700B63E3A /* Sources */,
+				542E54A61DD4121700B63E3A /* Frameworks */,
+				542E54A71DD4121700B63E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flexiumwarranty;
+			productName = flexiumwarranty;
+			productReference = 542E54A91DD4121700B63E3A /* flexiumwarranty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542E54C11DD4121800B63E3A /* flexiumwarrantyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542E54D91DD4121800B63E3A /* Build configuration list for PBXNativeTarget "flexiumwarrantyTests" */;
+			buildPhases = (
+				542E54BE1DD4121800B63E3A /* Sources */,
+				542E54BF1DD4121800B63E3A /* Frameworks */,
+				542E54C01DD4121800B63E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542E54C41DD4121800B63E3A /* PBXTargetDependency */,
+			);
+			name = flexiumwarrantyTests;
+			productName = flexiumwarrantyTests;
+			productReference = 542E54C21DD4121800B63E3A /* flexiumwarrantyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		542E54CC1DD4121800B63E3A /* flexiumwarrantyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542E54DC1DD4121800B63E3A /* Build configuration list for PBXNativeTarget "flexiumwarrantyUITests" */;
+			buildPhases = (
+				542E54C91DD4121800B63E3A /* Sources */,
+				542E54CA1DD4121800B63E3A /* Frameworks */,
+				542E54CB1DD4121800B63E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542E54CF1DD4121800B63E3A /* PBXTargetDependency */,
+			);
+			name = flexiumwarrantyUITests;
+			productName = flexiumwarrantyUITests;
+			productReference = 542E54CD1DD4121800B63E3A /* flexiumwarrantyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542E54A11DD4121700B63E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FLEXium;
+				TargetAttributes = {
+					542E54A81DD4121700B63E3A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR5YDTF8KZ;
+					};
+					542E54C11DD4121800B63E3A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR5YDTF8KZ;
+						TestTargetID = 542E54A81DD4121700B63E3A;
+					};
+					542E54CC1DD4121800B63E3A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR5YDTF8KZ;
+						TestTargetID = 542E54A81DD4121700B63E3A;
+					};
+				};
+			};
+			buildConfigurationList = 542E54A41DD4121700B63E3A /* Build configuration list for PBXProject "flexiumwarranty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542E54A01DD4121700B63E3A;
+			productRefGroup = 542E54AA1DD4121700B63E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542E54A81DD4121700B63E3A /* flexiumwarranty */,
+				542E54C11DD4121800B63E3A /* flexiumwarrantyTests */,
+				542E54CC1DD4121800B63E3A /* flexiumwarrantyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542E54A71DD4121700B63E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E54BC1DD4121800B63E3A /* LaunchScreen.storyboard in Resources */,
+				542E54B91DD4121700B63E3A /* Assets.xcassets in Resources */,
+				542E54B71DD4121700B63E3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E54C01DD4121800B63E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E54CB1DD4121800B63E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542E54A51DD4121700B63E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E54B41DD4121700B63E3A /* ViewController.m in Sources */,
+				542E54B11DD4121700B63E3A /* AppDelegate.m in Sources */,
+				542E54AE1DD4121700B63E3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E54BE1DD4121800B63E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E54C71DD4121800B63E3A /* flexiumwarrantyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E54C91DD4121800B63E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E54D21DD4121800B63E3A /* flexiumwarrantyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542E54C41DD4121800B63E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542E54A81DD4121700B63E3A /* flexiumwarranty */;
+			targetProxy = 542E54C31DD4121800B63E3A /* PBXContainerItemProxy */;
+		};
+		542E54CF1DD4121800B63E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542E54A81DD4121700B63E3A /* flexiumwarranty */;
+			targetProxy = 542E54CE1DD4121800B63E3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		542E54B51DD4121700B63E3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542E54B61DD4121700B63E3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542E54BA1DD4121800B63E3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542E54BB1DD4121800B63E3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542E54D41DD4121800B63E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		542E54D51DD4121800B63E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542E54D71DD4121800B63E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flexiumwarranty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumwarranty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		542E54D81DD4121800B63E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flexiumwarranty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumwarranty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		542E54DA1DD4121800B63E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flexiumwarrantyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumwarrantyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexiumwarranty.app/flexiumwarranty";
+			};
+			name = Debug;
+		};
+		542E54DB1DD4121800B63E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flexiumwarrantyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumwarrantyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexiumwarranty.app/flexiumwarranty";
+			};
+			name = Release;
+		};
+		542E54DD1DD4121800B63E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flexiumwarrantyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumwarrantyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flexiumwarranty;
+			};
+			name = Debug;
+		};
+		542E54DE1DD4121800B63E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flexiumwarrantyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumwarrantyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flexiumwarranty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542E54A41DD4121700B63E3A /* Build configuration list for PBXProject "flexiumwarranty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E54D41DD4121800B63E3A /* Debug */,
+				542E54D51DD4121800B63E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542E54D61DD4121800B63E3A /* Build configuration list for PBXNativeTarget "flexiumwarranty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E54D71DD4121800B63E3A /* Debug */,
+				542E54D81DD4121800B63E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		542E54D91DD4121800B63E3A /* Build configuration list for PBXNativeTarget "flexiumwarrantyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E54DA1DD4121800B63E3A /* Debug */,
+				542E54DB1DD4121800B63E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		542E54DC1DD4121800B63E3A /* Build configuration list for PBXNativeTarget "flexiumwarrantyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E54DD1DD4121800B63E3A /* Debug */,
+				542E54DE1DD4121800B63E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542E54A11DD4121700B63E3A /* Project object */;
+}
