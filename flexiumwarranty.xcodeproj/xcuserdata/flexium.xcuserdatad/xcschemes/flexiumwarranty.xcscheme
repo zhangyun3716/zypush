@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "542E54A81DD4121700B63E3A"
+               BuildableName = "&#x5ee0;&#x5340;&#x5831;&#x4fee;&#x7cfb;&#x7d71;.app"
+               BlueprintName = "flexiumwarranty"
+               ReferencedContainer = "container:flexiumwarranty.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "542E54C11DD4121800B63E3A"
+               BuildableName = "flexiumwarrantyTests.xctest"
+               BlueprintName = "flexiumwarrantyTests"
+               ReferencedContainer = "container:flexiumwarranty.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "542E54CC1DD4121800B63E3A"
+               BuildableName = "flexiumwarrantyUITests.xctest"
+               BlueprintName = "flexiumwarrantyUITests"
+               ReferencedContainer = "container:flexiumwarranty.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "542E54A81DD4121700B63E3A"
+            BuildableName = "&#x5ee0;&#x5340;&#x5831;&#x4fee;&#x7cfb;&#x7d71;.app"
+            BlueprintName = "flexiumwarranty"
+            ReferencedContainer = "container:flexiumwarranty.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "542E54A81DD4121700B63E3A"
+            BuildableName = "&#x5ee0;&#x5340;&#x5831;&#x4fee;&#x7cfb;&#x7d71;.app"
+            BlueprintName = "flexiumwarranty"
+            ReferencedContainer = "container:flexiumwarranty.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "542E54A81DD4121700B63E3A"
+            BuildableName = "&#x5ee0;&#x5340;&#x5831;&#x4fee;&#x7cfb;&#x7d71;.app"
+            BlueprintName = "flexiumwarranty"
+            ReferencedContainer = "container:flexiumwarranty.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

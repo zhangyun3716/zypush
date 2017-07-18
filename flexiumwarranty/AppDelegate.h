@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+static NSString *appKey = @"dfaab3f49ad54c94027d93a4";
+static NSString *channel = @"b0d6018a381f1fd04d486637";
+static BOOL isProduction = true;
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    UILabel *_infoLabel;
+    UILabel *_tokenLabel;
+    UILabel *_udidLabel;
+}
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property(retain, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UIWindow *window;
 
 
 @end
